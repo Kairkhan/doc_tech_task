@@ -8,4 +8,4 @@ GROUP BY e.Department
 HAVING COUNT(e.EmployeeId) <= 3;
 
 
--- 1 т.к Department можно вынести в отдельную таблицу
+-- 1 т.к Department можно вынести в отдельную таблицу и ссылаться через внешний ключ
