@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 class MySingleton {
-    private static MySingleton $existedInstance;
+    private static self $existedInstance;
     private function __construct()
     {
     }
